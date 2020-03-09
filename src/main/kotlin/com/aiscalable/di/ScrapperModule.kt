@@ -10,8 +10,8 @@ import dagger.Provides
 class ScrapperModule {
     @Provides
     fun provideScrapper(): Scrapper? {
-        val impl = FileScrapper()
-        println("Dagger is configured to provide " + impl.javaClass )
-        return impl
+        val configuredImpl = FileScrapper()
+        println("Dagger is configured to provide ${configuredImpl.javaClass}" )
+        return configuredImpl
     }
 }

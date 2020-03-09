@@ -9,5 +9,5 @@ import javax.inject.Singleton
 @Singleton
 interface ScrapperComponent {
     @Nullable
-    fun provideScrapper(): Scrapper
+    fun getScrapper(): Scrapper
 }
