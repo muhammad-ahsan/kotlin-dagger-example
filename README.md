@@ -1,4 +1,4 @@
-# How to incorporate Dagger 2 into Kotlin based backend with Gradle
+# Use Dagger 2 into Kotlin based backend with Gradle
 In this example there is an interface **Scrapper** which has 2 implementations - **FileScrapper** and **WebScrapper**. This sample project will demonstrate how dagger 2 can be configured to use one of the configured implementation.
  
 Dagger 2 generates Java code which is used by Kotlin without any problem. In order to generate that code using gradle as build tool, the project MUST support both Kotlin and Java as defined in **build.gradle** file 
